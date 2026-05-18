@@ -1,0 +1,24 @@
+# 1. Các thư mục chứa mã nguồn thư viện bên thứ ba (Dung lượng rất nặng)
+node_modules/
+frontend/node_modules/
+# 2. Các thư mục chứa kết quả đóng gói của hệ thống (Build output)
+.next/
+out/
+build/
+dist/
+
+# 3. Các tệp tin chứa biến môi trường và chuỗi khóa bí mật (Bảo mật tối cao)
+.env
+.env.local
+.env.development
+.env.production
+
+# 4. Các tệp tin nhật ký vận hành lỗi
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 5. Các tệp tin cấu hình ẩn sinh ra từ hệ điều hành
+.DS_Store
+Thumbs.db
